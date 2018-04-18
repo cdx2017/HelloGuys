@@ -12,6 +12,7 @@
     <!-- CSS -->
     <link href="css/index/bootstrap.css" rel="stylesheet">
     <link href="css/index/blog.css" rel="stylesheet">
+    <link href="css/index/index.css" rel="stylesheet">
 </head>
 <body>
 <div class="blog-masthead">
@@ -34,7 +35,7 @@
 <div class="title" id="part1">爱生活</div>
 <div class="content">
     <div class="pic pic1">
-        <img src="images/index/h1.jpg" alt="">
+        <a href="lead"><img src="images/index/h1.jpg" alt=""></a>
 
         <p>家乡-文笔塔下</p>
     </div>
@@ -59,7 +60,7 @@
         </ol>
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="images/index/s1.jpg" alt="...">
+                <img src="images/index/s1.jpg" alt="">
             </div>
             <div class="item">
                 <img src="images/index/s2.jpg" alt="...">
@@ -109,13 +110,20 @@
         </div>
     </div>
 </div>
-<div class="blog-footer">
-    <p>.</p>
+<div class="blog-footer" style="padding-left: 40%">
+    <div class="blob animated" style="background-color: #019875">
+        <div class="eyes">
+            <div class="eye left-eye"></div>
+            <div class="eye right-eye"></div>
+        </div>
+        <div class="mouth"></div>
+    </div>
 </div>
 <a href="" class="btt">顶部</a>
 <!-- Js-->
 <script src="js/index/jquery-1.9.1.min.js"></script>
 <script src="js/index/bootstrap.min.js"></script>
 <script src="js/index/plugin.js"></script>
+<script src="js/index/index.js"></script>
 </body>
 </html>

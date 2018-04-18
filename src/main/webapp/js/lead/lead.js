@@ -21,4 +21,4 @@ app.controller('MainController', function ($rootScope, $scope, $http) {
 
     }
 )
-;
+
