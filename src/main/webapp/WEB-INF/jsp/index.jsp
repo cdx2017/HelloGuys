@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>简单好看的个人主页网站 - 源码之家</title>
+    <title>主页</title>
     <!-- CSS -->
     <link href="css/index/bootstrap.css" rel="stylesheet">
     <link href="css/index/blog.css" rel="stylesheet">
@@ -27,7 +27,7 @@
 <div class="intr">
     <span class="avtar"></span>
 
-    <p class="peointr">我叫孙笑笑，一名计算机专业大三的学生。</p>
+    <p class="peointr">我叫${param.name}，一名计算机专业大四的学生。</p>
 
     <p class="peointr">爱生活，爱旅行，爱技术。</p>
 </div>
@@ -36,17 +36,17 @@
     <div class="pic pic1">
         <img src="images/index/h1.jpg" alt="">
 
-        <p>家乡-笔锋塔下</p>
+        <p>家乡-文笔塔下</p>
     </div>
     <div class="pic pic2">
         <img src="images/index/h2.jpg" alt="">
 
-        <p>家乡-襄河河畔</p>
+        <p>家乡-华砚湖畔</p>
     </div>
     <div class="pic pic3">
         <img src="images/index/h3.jpg" alt="">
 
-        <p>家乡-太平桥岸</p>
+        <p>家乡-士子桥岸</p>
     </div>
 </div>
 <div class="title" id="part2">爱旅行</div>
@@ -82,8 +82,8 @@
 <div class="content">
     <ul class="nav nav-tabs" role="tablist">
         <li class="active"><a href="#home" role="tab" data-toggle="tab">Web前端</a></li>
-        <li><a href="#profile" role="tab" data-toggle="tab">Asp.net</a></li>
-        <li><a href="#messages" role="tab" data-toggle="tab">Seo</a></li>
+        <li><a href="#profile" role="tab" data-toggle="tab">java后台</a></li>
+        <li><a href="#messages" role="tab" data-toggle="tab">Mysql数据库</a></li>
     </ul>
     <div class="tab-content">
         <div class="tab-pane active" id="home">
@@ -91,26 +91,26 @@
 
             <p class="text">这份工作也让我认识到自己的兴趣所在</p>
 
-            <p class="text">愿今后继续做前端 做前端技术的狂热者</p>
-        </div>
-        <div class="tab-pane" id="profile">
-            <p class="text">作为一个最初掌握的技术</p>
-
-            <p class="text">在很长的一段时间 我都用它来开发web,开发应用程序</p>
-
             <p class="text">愿今后可以继续研究它</p>
         </div>
+        <div class="tab-pane" id="profile">
+            <p class="text">曾就职于公司，任职java后台工程师职位</p>
+
+            <p class="text">这份工作也让我认识到自己的兴趣所在</p>
+
+            <p class="text">愿今后继续做前端 做后台技术的狂热者</p>
+        </div>
         <div class="tab-pane" id="messages">
-            <p class="text">作为一名草根站长</p>
+            <p class="text">作为一名程序猿</p>
 
-            <p class="text">Seo是必不可少的</p>
+            <p class="text">数据库是必不可少的</p>
 
-            <p class="text">因此我仍在不断地学习它 并因此享受SEO带来的乐趣</p>
+            <p class="text">因此我使用Mysql</p>
         </div>
     </div>
 </div>
 <div class="blog-footer">
-    <p>by <a href="http://www.mycodes.net" target="_blank">源码之家</a>.</p>
+    <p>.</p>
 </div>
 <a href="" class="btt">顶部</a>
 <!-- Js-->

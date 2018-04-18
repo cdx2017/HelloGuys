@@ -223,7 +223,7 @@ img.spv {
   -webkit-font-smoothing: antialiased;
   font-style: italic;
   letter-spacing: 0.5px;
-  background: url("../images/teaser/intro_ico_skip.png") no-repeat right 3px;
+  background: url("../../images/lead/teaser/intro_ico_skip.png") no-repeat right 3px;
   padding: 0 15px 0 0;
 }
 
@@ -271,14 +271,14 @@ img.spv {
   top: 243px;
 }
 #intro-box-eriri .intro-box-text {
-  background: url("../images/teaser/intro_eriri_text.png") no-repeat 0 0;
+  background: url("../../images/lead/teaser/intro_eriri_text.png") no-repeat 0 0;
   left: 888px;
   top: 139px;
   width: 178px;
   height: 477px;
 }
 #intro-box-eriri .intro-box-name {
-  background: url("../images/teaser/intro_eriri_name.png") no-repeat 0 0;
+  background: url("../../images/lead/teaser/intro_eriri_name.png") no-repeat 0 0;
   left: 838px;
   top: 137px;
   width: 10px;
@@ -290,14 +290,14 @@ img.spv {
   top: 265px;
 }
 #intro-box-utaha .intro-box-text {
-  background: url("../images/teaser/intro_utaha_text.png") no-repeat 0 0;
+  background: url("../../images/lead/teaser/intro_utaha_text.png") no-repeat 0 0;
   left: 133px;
   top: 97px;
   width: 469px;
   height: 155px;
 }
 #intro-box-utaha .intro-box-name {
-  background: url("../images/teaser/intro_utaha_name.png") no-repeat 0 0;
+  background: url("../../images/lead/teaser/intro_utaha_name.png") no-repeat 0 0;
   left: 132px;
   top: 296px;
   width: 184px;
@@ -309,14 +309,14 @@ img.spv {
   top: 104px;
 }
 #intro-box-izumi .intro-box-text {
-  background: url("../images/teaser/intro_izumi_text.png") no-repeat 0 0;
+  background: url("../../images/lead/teaser/intro_izumi_text.png") no-repeat 0 0;
   left: 542px;
   top: 552px;
   width: 556px;
   height: 95px;
 }
 #intro-box-izumi .intro-box-name {
-  background: url("../images/teaser/intro_izumi_name.png") no-repeat 0 0;
+  background: url("../../images/lead/teaser/intro_izumi_name.png") no-repeat 0 0;
   left: 542px;
   top: 679px;
   width: 130px;
@@ -328,14 +328,14 @@ img.spv {
   top: 99px;
 }
 #intro-box-michiru .intro-box-text {
-  background: url("../images/teaser/intro_michiru_text.png") no-repeat 0 0;
+  background: url("../../images/lead/teaser/intro_michiru_text.png") no-repeat 0 0;
   left: 129px;
   top: 292px;
   width: 158px;
   height: 380px;
 }
 #intro-box-michiru .intro-box-name {
-  background: url("../images/teaser/intro_michiru_name.png") no-repeat 0 0;
+  background: url("../../images/lead/teaser/intro_michiru_name.png") no-repeat 0 0;
   left: 88px;
   top: 295px;
   width: 9px;
@@ -353,7 +353,7 @@ img.spv {
   margin: auto;
 }
 #intro-box-megumi .intro-box-visual {
-  background: url("../images/teaser/intro_megumi.png") no-repeat 0 0;
+  background: url("../../images/lead/teaser/intro_megumi.png") no-repeat 0 0;
   position: absolute;
   top: -180px;
   left: 0;
@@ -371,7 +371,7 @@ img.spv {
   height: 839px;
 }
 #intro-box-megumi .intro-box-text {
-  background: url("../images/teaser/intro_megumi_text.png") no-repeat 0 0;
+  background: url("../../images/lead/teaser/intro_megumi_text.png") no-repeat 0 0;
   position: absolute;
   left: 721px;
   top: 215px;
@@ -422,7 +422,7 @@ img.spv {
   z-index: 100;
 }
 .intro-box-movie .movie-mask {
-  background: url("../images/teaser/intro_mask.png") no-repeat 0 0;
+  background: url("../../images/lead/teaser/intro_mask.png") no-repeat 0 0;
   top: 0;
   left: 0;
   z-index: 10;
@@ -529,28 +529,28 @@ img.spv {
 }
 
 .first-bg {
-  background: url("../images/teaser/main_bg_l.jpg") no-repeat center;
+  background: url("../../images/lead/teaser/main_bg_l.jpg") no-repeat center;
   background-size: cover;
 }
 
 .first-megumi-back {
-  background: url("../images/teaser/main_megumi_back_l.png") no-repeat center;
+  background: url("../../images/lead/teaser/main_megumi_back_l.png") no-repeat center;
   background-size: cover;
 }
 
 .first-megumi-front {
-  background: url("../images/teaser/main_megumi_front_l.png") no-repeat center;
+  background: url("../../images/lead/teaser/main_megumi_front_l.png") no-repeat center;
   background-size: cover;
 }
 
 .first-flare01 {
-  background: url("../images/teaser/main_flare01.png") repeat-x center;
+  background: url("../../images/lead/teaser/main_flare01.png") repeat-x center;
   background-size: cover;
   z-index: 10;
 }
 
 .first-flare02 {
-  background: url("../images/teaser/main_flare02.png") repeat-x center;
+  background: url("../../images/lead/teaser/main_flare02.png") repeat-x center;
   background-size: cover;
   z-index: 10;
 }
@@ -579,19 +579,19 @@ img.spv {
 }
 
 .sakura-front-l {
-  background: url("../images/teaser/main_sakura_front_l.png") no-repeat center;
+  background: url("../../images/lead/teaser/main_sakura_front_l.png") no-repeat center;
   background-size: cover;
   z-index: 3;
 }
 
 .sakura-front-m {
-  background: url("../images/teaser/main_sakura_front_m.png") no-repeat center;
+  background: url("../../images/lead/teaser/main_sakura_front_m.png") no-repeat center;
   background-size: cover;
   z-index: 2;
 }
 
 .sakura-front-s {
-  background: url("../images/teaser/main_sakura_front_s.png") no-repeat center;
+  background: url("../../images/lead/teaser/main_sakura_front_s.png") no-repeat center;
   background-size: cover;
   z-index: 1;
 }
@@ -617,17 +617,17 @@ img.spv {
 }
 
 .sakura-back-l {
-  background: url("../images/teaser/main_sakura_back_l.png") no-repeat center;
+  background: url("../../images/lead/teaser/main_sakura_back_l.png") no-repeat center;
   z-index: 3;
 }
 
 .sakura-back-m {
-  background: url("../images/teaser/main_sakura_back_m.png") no-repeat center;
+  background: url("../../images/lead/teaser/main_sakura_back_m.png") no-repeat center;
   z-index: 2;
 }
 
 .sakura-back-s {
-  background: url("../images/teaser/main_sakura_back_s.png") no-repeat center;
+  background: url("../../images/lead/teaser/main_sakura_back_s.png") no-repeat center;
   z-index: 1;
 }
 
@@ -1008,7 +1008,7 @@ img.spv {
   background: none !important;
 }
 #intro-box-eriri .intro-box-name span {
-  background: url("../images/teaser/intro_eriri_name.png") no-repeat 0 0;
+  background: url("../../images/lead/teaser/intro_eriri_name.png") no-repeat 0 0;
   position: absolute;
   z-index: 0;
   opacity: 0;
@@ -1020,7 +1020,7 @@ img.spv {
   background: none !important;
 }
 #intro-box-eriri .intro-box-text span {
-  background: url("../images/teaser/intro_eriri_text.png") no-repeat 0 0;
+  background: url("../../images/lead/teaser/intro_eriri_text.png") no-repeat 0 0;
   position: absolute;
   z-index: 0;
   box-sizing: border-box;
@@ -1151,7 +1151,7 @@ img.spv {
   background: none !important;
 }
 #intro-box-utaha .intro-box-name span {
-  background: url("../images/teaser/intro_utaha_name.png") no-repeat 0 0;
+  background: url("../../images/lead/teaser/intro_utaha_name.png") no-repeat 0 0;
   position: absolute;
   z-index: 0;
   width: 184px;
@@ -1161,7 +1161,7 @@ img.spv {
   background: none !important;
 }
 #intro-box-utaha .intro-box-text span {
-  background: url("../images/teaser/intro_utaha_text.png") no-repeat 0 0;
+  background: url("../../images/lead/teaser/intro_utaha_text.png") no-repeat 0 0;
   position: absolute;
   z-index: 0;
   box-sizing: border-box;
@@ -1315,7 +1315,7 @@ img.spv {
   background: none !important;
 }
 #intro-box-izumi .intro-box-name span {
-  background: url("../images/teaser/intro_izumi_name.png") no-repeat 0 0;
+  background: url("../../images/lead/teaser/intro_izumi_name.png") no-repeat 0 0;
   position: absolute;
   z-index: 0;
   width: 184px;
@@ -1327,7 +1327,7 @@ img.spv {
   filter: alpha(opacity=100);
 }
 #intro-box-izumi .intro-box-text span {
-  background: url("../images/teaser/intro_izumi_text.png") no-repeat 0 0;
+  background: url("../../images/lead/teaser/intro_izumi_text.png") no-repeat 0 0;
   position: absolute;
   z-index: 0;
   box-sizing: border-box;
@@ -1441,7 +1441,7 @@ img.spv {
   background: none !important;
 }
 #intro-box-michiru .intro-box-name span {
-  background: url("../images/teaser/intro_michiru_name.png") no-repeat 0 0;
+  background: url("../../images/lead/teaser/intro_michiru_name.png") no-repeat 0 0;
   position: absolute;
   z-index: 0;
   opacity: 1;
@@ -1453,7 +1453,7 @@ img.spv {
   background: none !important;
 }
 #intro-box-michiru .intro-box-text span {
-  background: url("../images/teaser/intro_michiru_text.png") no-repeat 0 0;
+  background: url("../../images/lead/teaser/intro_michiru_text.png") no-repeat 0 0;
   position: absolute;
   z-index: 0;
   box-sizing: border-box;
@@ -1605,7 +1605,7 @@ img.spv {
 
 .first-text {
   background: none !important;
-  background: url("../images/teaser/intro_megumi_text.png") no-repeat 0 0;
+  background: url("../../images/lead/teaser/intro_megumi_text.png") no-repeat 0 0;
   width: 267px;
   height: 297px;
   position: absolute;
@@ -1613,7 +1613,7 @@ img.spv {
   top: 215px;
 }
 .first-text span {
-  background: url("../images/teaser/intro_megumi_text.png") no-repeat 0 0;
+  background: url("../../images/lead/teaser/intro_megumi_text.png") no-repeat 0 0;
   position: absolute;
   z-index: 0;
   box-sizing: border-box;
@@ -1867,7 +1867,7 @@ img.spv {
     font-size: 4.0625vw;
     -webkit-font-smoothing: antialiased;
     font-style: italic;
-    background: url("../images/teaser/intro_ico_skip_sp.png") no-repeat right 3px;
+    background: url("../../images/lead/teaser/intro_ico_skip_sp.png") no-repeat right 3px;
     background-position: right 0.78125vw;
     background-size: 8px auto;
     background-size: 2.5vw auto;
@@ -2023,7 +2023,7 @@ img.spv {
     margin-top: -40px;
   }
   .intro-box-movie .movie-mask {
-    background: url("../images/teaser/intro_mask.png") no-repeat 0 0;
+    background: url("../../images/lead/teaser/intro_mask.png") no-repeat 0 0;
     top: 0;
     left: 0;
     z-index: 10;
@@ -2122,28 +2122,28 @@ img.spv {
   }
 
   .first-bg {
-    background: url("../images/teaser/main_bg_sp.jpg") no-repeat center;
+    background: url("../../images/lead/teaser/main_bg_sp.jpg") no-repeat center;
     background-size: 100% auto;
   }
 
   .first-megumi-back {
-    background: url("../images/teaser/main_megumi_back_sp.png") no-repeat center;
+    background: url("../../images/lead/teaser/main_megumi_back_sp.png") no-repeat center;
     background-size: 100% auto;
   }
 
   .first-megumi-front {
-    background: url("../images/teaser/main_megumi_front_sp.png") no-repeat center;
+    background: url("../../images/lead/teaser/main_megumi_front_sp.png") no-repeat center;
     background-size: 100% auto;
   }
 
   .first-flare01 {
-    background: url("../images/teaser/main_flare01_sp.png") repeat-x center;
+    background: url("../../images/lead/teaser/main_flare01_sp.png") repeat-x center;
     background-size: 100% auto;
     z-index: 10;
   }
 
   .first-flare02 {
-    background: url("../images/teaser/main_flare02_sp.png") repeat-x center;
+    background: url("../../images/lead/teaser/main_flare02_sp.png") repeat-x center;
     background-size: 100% auto;
     z-index: 10;
   }
@@ -2175,7 +2175,7 @@ img.spv {
   }
 
   .first-text {
-    background: url("../images/teaser/intro_megumi_text_sp.png") no-repeat 0 0 !important;
+    background: url("../../images/lead/teaser/intro_megumi_text_sp.png") no-repeat 0 0 !important;
     background-size: 100% auto !important;
     pointer-events: none;
     width: 195px;
@@ -2198,7 +2198,7 @@ img.spv {
    * ------------------- */
   .sakura-front {
     position: absolute;
-    background: url("../images/teaser/main_sakura_front_sp.png") no-repeat center;
+    background: url("../../images/lead/teaser/main_sakura_front_sp.png") no-repeat center;
     background-size: 100% auto;
     display: none;
   }
@@ -2210,7 +2210,7 @@ img.spv {
 
   .sakura-back {
     position: absolute;
-    background: url("../images/teaser/main_sakura_back_sp.png") no-repeat center 0;
+    background: url("../../images/lead/teaser/main_sakura_back_sp.png") no-repeat center 0;
     background-size: 100% auto;
     width: 100%;
     height: 100%;
@@ -2238,7 +2238,7 @@ img.spv {
    * ムービー
    * ------------------- */
   .l-movie {
-    background: url("../images/teaser/main_movie_ss_sp.png") no-repeat center;
+    background: url("../../images/lead/teaser/main_movie_ss_sp.png") no-repeat center;
     background-size: cover;
     width: 100%;
     height: 180px;
@@ -2724,11 +2724,11 @@ img.spv {
 #fancybox-loading div {
   width: 44px;
   height: 44px;
-  background: url("../images/common/fancybox/fancybox_loading.gif") center center no-repeat;
+  background: url("../../images/lead/common/fancybox/fancybox_loading.gif") center center no-repeat;
 }
 
 .fancybox-close {
-  background-image: url("../images/common/fancybox/fancybox_close.png");
+  background-image: url("../../images/lead/common/fancybox/fancybox_close.png");
   position: absolute;
   bottom: -90px;
   left: 0;
@@ -2752,7 +2752,7 @@ img.spv {
 
 @media screen and (max-width: 800px) {
   .fancybox-close {
-    background-image: url("../images/common/fancybox/fancybox_close.png");
+    background-image: url("../../images/lead/common/fancybox/fancybox_close.png");
     background-size: 100% auto;
     width: 25px;
     height: 34px;
@@ -2839,7 +2839,7 @@ img.spv {
   /*overflow: hidden */
   display: none;
   z-index: 8010;
-  background: url("../images/common/fancybox/fancybox_overlay.png");
+  background: url("../../images/lead/common/fancybox/fancybox_overlay.png");
 }
 
 .fancybox-overlay-fixed {

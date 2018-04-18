@@ -1,9 +1,5 @@
 package com.example.demo.controller;
 
-/**
- * Created by Administrator on 2018/1/8.
- */
-
 import com.example.demo.dto.UniqueUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
@@ -13,6 +9,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+/**
+ * @author Administrator
+ */
 @Controller
 public class OneController {
 
@@ -21,7 +20,7 @@ public class OneController {
 
     @GetMapping("/")
     public String main() {
-        return "main";
+        return "index";
     }
 
     @GetMapping("/index")
@@ -29,9 +28,9 @@ public class OneController {
         return "index";
     }
 
-    @GetMapping("/hello")
-    public String flower() {
-        return "hello";
+    @GetMapping("/lead")
+    public String lead() {
+        return "lead";
     }
 
 
@@ -42,17 +41,17 @@ public class OneController {
     Object login(@RequestBody UniqueUser uniqueUser) {
         /*Query query = new Query(Criteria.where("username").is(uniqueUser.getUsername()).and("password").is(uniqueUser.getPassword()));
         return mongoTemplate.find(query, UniqueUser.class);*/
-        if (("王灵辉").equals(uniqueUser.getUsername()) && ("1006").equals(uniqueUser.getPassword())) {
+        if (("王灵辉").equals(uniqueUser.getName()) && ("1006").equals(uniqueUser.getPassword())) {
             return uniqueUser;
-        } else if (("陈静怡").equals(uniqueUser.getUsername()) && ("0404").equals(uniqueUser.getPassword())) {
+        } else if (("陈静怡").equals(uniqueUser.getName()) && ("0404").equals(uniqueUser.getPassword())) {
             return uniqueUser;
-        } else if (("卢凡").equals(uniqueUser.getUsername()) && ("0228").equals(uniqueUser.getPassword())) {
+        } else if (("卢凡").equals(uniqueUser.getName()) && ("0228").equals(uniqueUser.getPassword())) {
             return uniqueUser;
-        } else if (("郑鑫").equals(uniqueUser.getUsername()) && ("1211").equals(uniqueUser.getPassword())) {
+        } else if (("郑鑫").equals(uniqueUser.getName()) && ("1211").equals(uniqueUser.getPassword())) {
             return uniqueUser;
-        }else if (("1").equals(uniqueUser.getUsername()) && ("1").equals(uniqueUser.getPassword())) {
+        } else if (("1").equals(uniqueUser.getName()) && ("1").equals(uniqueUser.getPassword())) {
             return uniqueUser;
-        }else {
+        } else {
             return null;
         }
     }
