@@ -33,9 +33,14 @@ public class OneController {
         return "lead";
     }
 
-    @GetMapping("/joy")
-    public String joy() {
-        return "joy";
+    @GetMapping("/mountain")
+    public String mountain() {
+        return "mountain";
+    }
+
+    @GetMapping("/jellyfish")
+    public String jellyfish() {
+        return "jellyfish";
     }
 
 }
