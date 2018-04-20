@@ -4,10 +4,7 @@ import com.example.demo.dto.UniqueUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author Administrator
@@ -23,7 +20,7 @@ public class OneController {
         return "index";
     }
 
-    @GetMapping("/index")
+    @RequestMapping(value = "/index", method = {RequestMethod.GET, RequestMethod.POST})
     public String index() {
         return "index";
     }
@@ -41,6 +38,11 @@ public class OneController {
     @GetMapping("/jellyfish")
     public String jellyfish() {
         return "jellyfish";
+    }
+
+    @GetMapping("/plane")
+    public String plane() {
+        return "plane";
     }
 
 }

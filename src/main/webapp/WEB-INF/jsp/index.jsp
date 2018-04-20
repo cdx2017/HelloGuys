@@ -35,17 +35,17 @@
 <div class="title" id="part1">爱生活</div>
 <div class="content">
     <div class="pic pic1">
-        <a href="lead"><img src="images/index/h1.jpg" alt=""></a>
+        <a href="mountain"><img src="images/index/h1.jpg" alt=""></a>
 
         <p>家乡-文笔塔下</p>
     </div>
     <div class="pic pic2">
-        <img src="images/index/h2.jpg" alt="">
+        <a href="jellyfish"><img src="images/index/h2.jpg" alt=""></a>
 
         <p>家乡-华砚湖畔</p>
     </div>
     <div class="pic pic3">
-        <img src="images/index/h3.jpg" alt="">
+        <a href="plane"><img src="images/index/h3.jpg" alt=""></a>
 
         <p>家乡-士子桥岸</p>
     </div>
