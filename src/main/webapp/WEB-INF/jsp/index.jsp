@@ -110,7 +110,7 @@
         </div>
     </div>
 </div>
-<div class="blog-footer" style="padding-left: 40%">
+<div class="blog-footer" style="padding-left: 40%" onclick="nextgo()">
     <div class="blob animated" style="background-color: #019875">
         <div class="eyes">
             <div class="eye left-eye"></div>
