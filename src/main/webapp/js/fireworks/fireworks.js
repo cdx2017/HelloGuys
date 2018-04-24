@@ -1,7 +1,9 @@
-//切换控制
+/*//切换控制
 cutController = function () {
-
-};
+//3秒钟之后跳转到指定的页面
+    setTimeout(window.location.href='http://localhost:8100/fireworks3D',5);
+    setTimeout(window.location.href='http://localhost:8100/fireworks',6);
+};*/
 
 //==============================================================
 //fireworks=====================================================
@@ -17,7 +19,7 @@ var bigbooms = [];
 
 window.onload = function () {
     initAnimate()
-}
+};
 
 function initAnimate() {
     drawBg();

@@ -37,7 +37,8 @@
     </div>
 </div>
 <div style="text-align:center;">
-<p><a href="http://localhost:8666/index">重新登录</a></p>
+<%--<p><a href="http://localhost:8666/index">重新登录</a></p>--%>
+    <p><a href="http://120.79.166.111:8666/index">重新登录</a></p>
 </div>
 </body>
 </html>
