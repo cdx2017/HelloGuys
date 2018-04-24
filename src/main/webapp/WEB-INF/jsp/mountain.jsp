@@ -70,7 +70,12 @@
 </div>
 
 <div style="text-align:center;">
-    <p><a href="#" onClick="javascript :history.back(-1);"style="color: #00c6ff">返回上一页</a></p>
+    <form action="/index" method="post">
+        <input type="text" name="name" value="${param.name}" hidden="true"/>
+
+        <p><input type="submit" value="返回上一页"
+                  style="color: #00c6ff;background-color: #ffffff;border:none;font-size: 20px;"/></p>
+    </form>
 </div>
 </body>
 </html>

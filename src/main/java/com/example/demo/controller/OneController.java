@@ -15,8 +15,6 @@ import javax.servlet.http.HttpSession;
 @Controller
 public class OneController {
 
-    /*@Autowired
-    MongoTemplate mongoTemplate;*/
     @Autowired
     UserService userService;
 
@@ -74,11 +72,11 @@ public class OneController {
     public UniqueUser nextgo(HttpSession session) {
         UniqueUser uniqueUser = new UniqueUser();
         String name = userService.getNameFromRedis(session.getId());
-        /*String url = "http://localhost:8100/fail";*/
-        String url = "http://120.79.166.111:8100/fail";
+        String url = "http://localhost:8100/fail";
+        /*String url = "http://120.79.166.111:8100/fail";*/
         if (uniqueUserDao.getName(name) != null) {
-            /*url = "http://localhost:8100/fireworks";*/
-            url = "http://120.79.166.111:8100/fireworks";
+            url = "http://localhost:8100/fireworks";
+            /*url = "http://120.79.166.111:8100/fireworks";*/
         }
         uniqueUser.setNextgo(url);
         return uniqueUser;

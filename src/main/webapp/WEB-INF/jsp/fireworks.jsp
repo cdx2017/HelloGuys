@@ -27,8 +27,8 @@
 </head>
 <body onselectstart="return false">
 <canvas id='cas' style="background-color:rgba(0,5,24,1)">浏览器不支持canvas</canvas>
-<div class="city"><img src="images/fireworks/city.png" alt=""/></div>
-<img src="images/fireworks/moon.png" alt="" id="moon" style="visibility: hidden;"/>
+<div class="city"><a href="main"><img src="images/fireworks/city.png" alt=""/></a></div>
+<img src="images/fireworks/moon.png" alt="" id="moon" style="visibility: hidden;" />
 
 <div style="display:none">
     <div class="shape">开开心心</div>
@@ -39,7 +39,7 @@
 </div>
 <script src="js/fireworks/fireworks.js"></script>
 <div style="text-align:center;">
-    <p>来源:<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>
+
 </div>
 </body>
 </html>

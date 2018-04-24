@@ -15,10 +15,11 @@
     <link href="css/index/index.css" rel="stylesheet">
 </head>
 <body>
+<div class="title" id="part0" style="background-color:#019875;padding: 0px;margin: 0px;border-bottom: 0px; "></div>
 <div class="blog-masthead">
     <div class="container">
         <nav class="blog-nav">
-            <a class="blog-nav-item active" href="index.html">首页</a>
+            <a class="blog-nav-item active" href="#part0">首页</a>
             <a class="blog-nav-item" href="#part1">生活</a>
             <a class="blog-nav-item" href="#part2">旅行</a>
             <a class="blog-nav-item" href="#part3">技术</a>
@@ -35,17 +36,17 @@
 <div class="title" id="part1">爱生活</div>
 <div class="content">
     <div class="pic pic1">
-        <a href="mountain"><img src="images/index/h1.jpg" alt=""></a>
+        <a href="mountain?name=${param.name}"><img src="images/index/h1.jpg" alt=""></a>
 
         <p>家乡-文笔塔下</p>
     </div>
     <div class="pic pic2">
-        <a href="jellyfish"><img src="images/index/h2.jpg" alt=""></a>
+        <a href="jellyfish?name=${param.name}"><img src="images/index/h2.jpg" alt=""></a>
 
         <p>家乡-华砚湖畔</p>
     </div>
     <div class="pic pic3">
-        <a href="plane"><img src="images/index/h3.jpg" alt=""></a>
+        <a href="plane?name=${param.name}"><img src="images/index/h3.jpg" alt=""></a>
 
         <p>家乡-士子桥岸</p>
     </div>
@@ -119,7 +120,7 @@
         <div class="mouth"></div>
     </div>
 </div>
-<a href="" class="btt">顶部</a>
+<a href="#part0" class="btt">顶部</a>
 <!-- Js-->
 <script src="js/index/jquery-1.9.1.min.js"></script>
 <script src="js/index/bootstrap.min.js"></script>

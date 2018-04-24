@@ -23,7 +23,12 @@
 <body>
 
 <div style="text-align:center;background-color: #e4e0ba">
-    <p><a href="#" onClick="javascript :history.back(-1);" style="color: #ff4eaa">返回上一页</a></p>
+    <form action="/index" method="post">
+        <input type="text" name="name" value="${param.name}" hidden="true"/>
+
+        <p><input type="submit" value="返回上一页"
+                  style="color: #ff4eaa;background-color: #e4e0ba;border:none;font-size: 18px;"/></p>
+    </form>
 </div>
 <div id="world"></div>
 <script src="js/plane/three.min.js"></script>
