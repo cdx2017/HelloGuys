@@ -34,7 +34,7 @@
         <div id="text">
             <div id="code">
                 <font color="#FF79BC">
-                    <span class="say">亲爱的雯雯</span><br>
+                    <span class="say">亲爱的xxx</span><br>
                     <span class="say"> </span><br>
                     <span class="say">我爱你，始终如一，万年不变</span><br>
                     <span class="say"></span><br>
@@ -52,12 +52,12 @@
                     <span class="say"></span><br>
                     <span class="say">算了，你肯定又在说我牛郎了</span><br>
                     <span class="say"></span><br>
-                    <span class="say"><span class="space"></span> -- 你的撒逼--</span>
+                    <span class="say"><span class="space"></span> -- 你的xxx--</span>
                 </font>
                 </p>
             </div>
         </div>
-        <div id="clock-box"><span class="STYLE1"></span><font color="#33CC00">大蠢牛，我爱你</font> <span class="STYLE1">已经是……</span>
+        <div id="clock-box"><span class="STYLE1"></span><font color="#33CC00">xxx，我爱你</font> <span class="STYLE1">已经是……</span>
             <div id="clock"></div>
         </div>
         <canvas id="canvas" width="1100" height="680"></canvas>

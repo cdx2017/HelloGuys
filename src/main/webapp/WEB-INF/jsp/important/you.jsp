@@ -3,7 +3,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>标题</title>
+    <title>你的样子</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="keywords" content="惊喜"/>
     <meta name="description" content="么么哒"/>
@@ -86,7 +86,7 @@
         element.src = "images/you/xihuchucihezhao.jpg";
     }
     function realert5() {
-        self.location = 'flower';
+        self.location = 'heart?name=${param.name}';
     }
     function realert6() {
         var element = document.getElementById('myimage6');

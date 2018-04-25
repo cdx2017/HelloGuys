@@ -26,7 +26,7 @@
                 <span class="space"/><span class="comments">* 因此，我就写几行代码吧</span><br />
                 <span class="space"/><span class="comments">*/</span><br />
                 Boy i = <span class="keyword">new</span> Boy(<span class="string">"Eaststar"</span>);<br />
-                Girl u = <span class="keyword">new</span> Girl(<span class="string">"doub"</span>);<br />
+                Girl u = <span class="keyword">new</span> Girl(<span class="string">"${param.name}"</span>);<br />
                 <span class="comments">// i love you ! </span><br />
                 i.love(u);<br />
                 <span class="comments">// do you love me ?</span><br />
@@ -71,7 +71,7 @@ google_ad_height = 50;
 src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 </center>
-                        jingyi, <a href='flower' >click me if accept not me</a>
+                        ${param.name}, <a href='flower?name=${param.name}' >click me if accept not me</a>
                     </div>
                     <div id="loveu">
                         Love u forever and ever.<br/>

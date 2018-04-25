@@ -25,7 +25,7 @@
 </style>
 <h1 align="center" style="margin-top: 5%;color: yellow;font-size: 40px">漂亮的花花</h1>
 <canvas id="c" style="margin-top: 1%;margin-left: 35%"></canvas>
-<p align="center" style="margin-top: 2%;color: red;font-size: 30px"><a href="buy" style=" text-decoration: none;">想要吗？点击我去买花~</a></p>
+<p align="center" style="margin-top: 2%;color: red;font-size: 30px"><a href="buy?name=${param.name}" style=" text-decoration: none;">想要吗？点击我去买花~</a></p>
 <script>
     var b = document.body;
     var c = document.getElementsByTagName('canvas')[0];

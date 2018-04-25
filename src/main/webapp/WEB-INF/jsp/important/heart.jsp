@@ -17,8 +17,10 @@
     </head>
     <body>
 
+    <input id="name" type="text" hidden="true" value="${param.name}">
+
     <div style="text-align:center;">
-        <p align="center" style="color: red;font-size: 20px"><a href="program" style=" text-decoration: none;">NEXT</a></p>
+        <p align="center" style="color: red;font-size: 20px"><a href="program?name=${param.name}" style=" text-decoration: none;">NEXT</a></p>
     </div>
 
         <script src="js/heart/nb.js"></script>
@@ -76,7 +78,7 @@
 
                 // Get text from hash
 
-                var string = "doub";
+                var string = document.getElementById('name').value;
                 var hash = document.location.hash.substr(1);
 
                 if (hash.length !== 0) {

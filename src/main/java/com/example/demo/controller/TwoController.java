@@ -1,6 +1,8 @@
 package com.example.demo.controller;
 
+import com.example.demo.dao.UniqueUserDao;
 import com.example.demo.dto.UniqueUser;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -13,32 +15,25 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class TwoController {
 
+    @Autowired
+    UniqueUserDao uniqueUserDao;
+
     @GetMapping("/main")
     public String main3() {
         return "important/main";
     }
     //1.0
-   /* @GetMapping("/you")
+   /* @GetMapping("/say")
+    public String say() {
+        return "important/say";
+    }*/
+
+    //2.0
+    @GetMapping("/you")
     public String you() {
         return "important/you";
     }
 
-    @GetMapping("/flower")
-    public String flower() {
-        return "important/flower";
-    }
-
-    @GetMapping("/buy")
-    public String buy() {
-        return "important/buy";
-    }
-
-    @GetMapping("/say")
-    public String say() {
-        return "say";
-    }*/
-
-    //2.0
     @GetMapping("/heart")
     public String heart() {
         return "important/heart";
@@ -68,8 +63,14 @@ public class TwoController {
     public
     @ResponseBody
     Object login(@RequestBody UniqueUser uniqueUser) {
-        if (("1").equals(uniqueUser.getName()) && ("1").equals(uniqueUser.getPassword())) {
-            return uniqueUser;
+        UniqueUser uniqueUserCheck;
+        if (uniqueUser.getName() != null && uniqueUser.getName() != "") {
+            uniqueUserCheck = uniqueUserDao.getName(uniqueUser.getName());
+            if (uniqueUserCheck != null && uniqueUserCheck.getPassword().equals(uniqueUser.getPassword())) {
+                uniqueUser.setNextgo("/you?name="+uniqueUser.getName());
+                return uniqueUser;
+            }
+            return null;
         } else {
             return null;
         }

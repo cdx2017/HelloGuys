@@ -93,7 +93,7 @@
 
 <body>
 <!-- 代码 开始 -->
-<a id="next" href="together"></a>
+<a id="next" href="together?name=${param.name}"></a>
 
     <div id='content'>
         <ul class='content-wrap'>

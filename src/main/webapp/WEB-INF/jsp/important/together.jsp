@@ -208,7 +208,7 @@
 
     <div class="message">
         <div class="rope"></div>
-        <div class="rotulo"><span>静怡 做我女朋友吧!</span></div>
+        <div class="rotulo"><span>${param.name} 做我女朋友吧!</span></div>
     </div>
 
     <div class="rainbow">

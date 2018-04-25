@@ -1,9 +1,9 @@
 /*//切换控制
-cutController = function () {
-//3秒钟之后跳转到指定的页面
-    setTimeout(window.location.href='http://localhost:8100/fireworks3D',5);
-    setTimeout(window.location.href='http://localhost:8100/fireworks',6);
-};*/
+ cutController = function () {
+ //3秒钟之后跳转到指定的页面
+ setTimeout(window.location.href='http://localhost:8100/fireworks3D',5);
+ setTimeout(window.location.href='http://localhost:8100/fireworks',6);
+ };*/
 
 //==============================================================
 //fireworks=====================================================
@@ -364,17 +364,17 @@ function initVars() {
     gravity = .02;
     seeds = new Array();
     sparkPics = new Array();
-    s = "https://cantelope.org/NYE/";
+    s = "/images/fireworks/";//https://cantelope.org/NYE/
     for (i = 1; i <= 10; ++i) {
         sparkPic = new Image();
         sparkPic.src = s + "spark" + i + ".png";
         sparkPics.push(sparkPic);
     }
     sparks = new Array();
-    pow1 = new Audio(s + "pow1.ogg");
-    pow2 = new Audio(s + "pow2.ogg");
-    pow3 = new Audio(s + "pow3.ogg");
-    pow4 = new Audio(s + "pow4.ogg");
+    pow1 = new Audio("/music/fireworks/pow1.ogg");
+    pow2 = new Audio("/music/fireworks/pow2.ogg");
+    pow3 = new Audio("/music/fireworks/pow3.ogg");
+    pow4 = new Audio("/music/fireworks/pow4.ogg");
     frames = 0;
 }
 
@@ -489,16 +489,16 @@ function splode(x, y, z) {
     }
     switch (parseInt(Math.random() * 4)) {
         case 0:
-            pow = new Audio(s + "pow1.ogg");
+            pow = new Audio("/music/fireworks/pow1.ogg");
             break;
         case 1:
-            pow = new Audio(s + "pow2.ogg");
+            pow = new Audio("/music/fireworks/pow2.ogg");
             break;
         case 2:
-            pow = new Audio(s + "pow3.ogg");
+            pow = new Audio("/music/fireworks/pow3.ogg");
             break;
         case 3:
-            pow = new Audio(s + "pow4.ogg");
+            pow = new Audio("/music/fireworks/pow4.ogg");
             break;
     }
     d = Math.sqrt((x - playerX) * (x - playerX) + (y - playerY) * (y - playerY) + (z - playerZ) * (z - playerZ));
