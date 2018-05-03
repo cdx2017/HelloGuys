@@ -23,13 +23,14 @@
             <a class="blog-nav-item" href="#part1">生活</a>
             <a class="blog-nav-item" href="#part2">旅行</a>
             <a class="blog-nav-item" href="#part3">技术</a>
+            <a class="blog-nav-item" onclick="getComment('${param.name}')" style="padding-left: 68%">你好，${param.name}</a>
         </nav>
     </div>
 </div>
 <div class="intr">
     <span class="avtar"></span>
 
-    <p class="peointr">我叫${param.name}，一名计算机专业大四的学生。</p>
+    <p class="peointr">我叫cdx，一名计算机专业大四的学生。</p>
 
     <p class="peointr">爱生活，爱旅行，爱技术。</p>
 </div>
@@ -107,7 +108,7 @@
 
             <p class="text">数据库是必不可少的</p>
 
-            <p class="text">因此我使用Mysql</p>
+            <p class="text">其中我使用Mysql</p>
         </div>
     </div>
 </div>

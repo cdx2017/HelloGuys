@@ -65,7 +65,7 @@ public class TwoController {
     Object login(@RequestBody UniqueUser uniqueUser) {
         UniqueUser uniqueUserCheck;
         if (uniqueUser.getName() != null && uniqueUser.getName() != "") {
-            uniqueUserCheck = uniqueUserDao.getName(uniqueUser.getName());
+            uniqueUserCheck = uniqueUserDao.getUniqueName(uniqueUser.getName());
             if (uniqueUserCheck != null && uniqueUserCheck.getPassword().equals(uniqueUser.getPassword())) {
                 uniqueUser.setNextgo("/you?name="+uniqueUser.getName());
                 return uniqueUser;

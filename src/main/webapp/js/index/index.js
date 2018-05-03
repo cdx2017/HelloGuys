@@ -9,6 +9,17 @@ nextgo = function () {
     )
 };
 
+getComment = function (name) {
+    $.ajax({
+        url: "/getcomment",
+        type: "get",
+        data: {"name": name}
+    }).success(function (result) {
+            alert(result);
+        }
+    )
+};
+
 /*
  How can geometry
  bear affection?

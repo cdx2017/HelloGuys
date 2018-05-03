@@ -76,10 +76,16 @@ public class OneController {
         /*String url = "http://120.79.166.111:8100/fail";*/
         if (uniqueUserDao.getName(name) != null) {
             url = "http://localhost:8100/fireworks";
-            /*url = "http://120.79.166.111:8100/fireworks";*/
+           /* url = "http://120.79.166.111:8100/fireworks";*/
         }
         uniqueUser.setNextgo(url);
         return uniqueUser;
+    }
+
+    @GetMapping("/getcomment")
+    @ResponseBody
+    public String getComment(@RequestParam("name") String name){
+        return uniqueUserDao.getComment(name);
     }
 
     @GetMapping("/birthday")
