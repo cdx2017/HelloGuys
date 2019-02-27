@@ -34,32 +34,38 @@
         <div id="text">
             <div id="code">
                 <font color="#FF79BC">
-                    <span class="say">亲爱的xxx</span><br>
+                    <span class="say">爱情树上爱情果，爱情树下你和我</span><br>
+                    <span class="say"></span><br>
+                    <span class="say">爱情树前做游戏，爱情多又多~</span><br>
+                    <span class="say"></span><br>
+                    <span class="say">女朋友，你好呀，我是你的男朋友 东兴陈！</span><br>
                     <span class="say"> </span><br>
-                    <span class="say">我爱你，始终如一，万年不变</span><br>
+                    <span class="say">首先，来一次正式的告白：</span><br>
                     <span class="say"></span><br>
-                    <span class="say">无论你在何时，无论你在何处，无论你做什么</span><br>
+                    <span class="say">郑鑫，我喜欢你！我的脑和心，我全身上下每一个器官都在说着我喜欢你</span><br>
                     <span class="say"></span><br>
-                    <span class="say">请记住</span><br>
+                    <span class="say">你的皮肤，我买了</span><br>
+                    <span class="say">你的黑锅，我背了</span><br>
+                    <span class="say">你的朋友，咱们一起酸</span><br>
+                    <span class="say">我会给你做饭</span><br>
+                    <span class="say">我会给你捶背</span><br>
+                    <span class="say">我会为你歌唱</span><br>
                     <span class="say"></span><br>
-                    <span class="say">我永远支持你，无时无刻护着你</span><br>
+                    <span class="say">请为我留好你的无名指</span><br>
                     <span class="say"></span><br>
-                    <span class="say">你口渴了，我给你喝口水</span><br>
-                    <span class="say">你肚子饿了，我带你吃猪肉</span><br>
-                    <span class="say">你想吃草莓，我就给你种草莓</span><br>
+                    <span class="say">ta非我莫属啦,嘻嘻</span><br>
                     <span class="say"></span><br>
-                    <span class="say">你......我</span><br>
-                    <span class="say"></span><br>
-                    <span class="say">算了，你肯定又在说我牛郎了</span><br>
-                    <span class="say"></span><br>
-                    <span class="say"><span class="space"></span> -- 你的xxx--</span>
+                    <span class="say"><span class="space"></span> -- 你的男朋友宣--</span>
                 </font>
-                </p>
+                <p align="center" style="margin-top: 2%;color: hotpink;font-size: 30px"><a href="flower?name=${param.name}" style=" text-decoration: none;">请收下我的心心</a></p>
+
             </div>
+
         </div>
-        <div id="clock-box"><span class="STYLE1"></span><font color="#33CC00">xxx，我爱你</font> <span class="STYLE1">已经是……</span>
+        <%--<div id="clock-box"><span class="STYLE1"></span><font color="#33CC00">xxx，我爱你</font> <span class="STYLE1">已经是……</span>
             <div id="clock"></div>
-        </div>
+        </div>--%>
+
         <canvas id="canvas" width="1100" height="680"></canvas>
     </div>
 </div>
@@ -194,8 +200,8 @@
 
         var textAnimate = eval(Jscex.compile("async", function () {
             var together = new Date();
-            together.setFullYear(2016, 8, 9); 			//时间年月日
-            together.setHours(16);						//小时
+            together.setFullYear(2019, 02, 14); 			//时间年月日
+            together.setHours(19);						//小时
             together.setMinutes(0);					//分钟
             together.setSeconds(0);					//秒前一位
             together.setMilliseconds(2);				//秒第二位

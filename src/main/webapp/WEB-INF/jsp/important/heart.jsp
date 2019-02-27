@@ -20,7 +20,7 @@
     <input id="name" type="text" hidden="true" value="${param.name}">
 
     <div style="text-align:center;">
-        <p align="center" style="color: red;font-size: 20px"><a href="program?name=${param.name}" style=" text-decoration: none;">NEXT</a></p>
+        <p align="center" style="color: red;font-size: 20px"><a href="say?name=${param.name}" style=" text-decoration: none;">NEXT</a></p>
     </div>
 
         <script src="js/heart/nb.js"></script>

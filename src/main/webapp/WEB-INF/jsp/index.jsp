@@ -30,7 +30,7 @@
 <div class="intr">
     <span class="avtar"></span>
 
-    <p class="peointr">我叫cdx，一名计算机专业大四的学生。</p>
+    <p class="peointr">我叫cdx，一名隐藏在金融事业中的IT工作者。</p>
 
     <p class="peointr">爱生活，爱旅行，爱技术。</p>
 </div>

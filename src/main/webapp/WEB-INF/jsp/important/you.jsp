@@ -38,7 +38,7 @@
         </div>
         <div class="col-xs-4 col-md-4">
             <a href="#" class="thumbnail" onClick=realert5()>
-                <img src="images/you/5.jpg" alt="...">
+                <img src="images/you/${param.name}.jpg" alt="...">
             </a>
         </div>
         <div class="col-xs-4 col-md-4">
@@ -70,39 +70,39 @@
 <script>
     function realert1() {
         var element = document.getElementById('myimage1');
-        element.src = "images/you/fengchejie.jpg";
+        element.src = "images/you/${param.name}1.jpg";
     }
     function realert2() {
         var element = document.getElementById('myimage2');
-        element.src = "images/you/xihuhuachuan.jpg";
+        element.src = "images/you/${param.name}2.jpg";
     }
     function realert3() {
         var element = document.getElementById('myimage3');
-        element.src = "images/you/lajijie.jpg";
+        element.src = "images/you/${param.name}3.jpg";
     }
     function realert4() {
 
         var element = document.getElementById('myimage4');
-        element.src = "images/you/xihuchucihezhao.jpg";
+        element.src = "images/you/${param.name}4.jpg";
     }
     function realert5() {
         self.location = 'heart?name=${param.name}';
     }
     function realert6() {
         var element = document.getElementById('myimage6');
-        element.src = "images/you/xiaoyuan.jpg";
+        element.src = "images/you/${param.name}6.jpg";
     }
     function realert7() {
         var element = document.getElementById('myimage7');
-        element.src = "images/you/binjiang.jpg";
+        element.src = "images/you/${param.name}7.jpg";
     }
     function realert8() {
         var element = document.getElementById('myimage8');
-        element.src = "images/you/jiaxinlvyou.jpg";
+        element.src = "images/you/${param.name}8.jpg";
     }
     function realert9() {
         var element = document.getElementById('myimage9');
-        element.src = "images/you/malasong.jpg";
+        element.src = "images/you/${param.name}9.jpg";
     }
 
 </script>

@@ -23,10 +23,10 @@ public class TwoController {
         return "important/main";
     }
     //1.0
-   /* @GetMapping("/say")
+    @GetMapping("/say")
     public String say() {
         return "important/say";
-    }*/
+    }
 
     //2.0
     @GetMapping("/you")
@@ -39,10 +39,10 @@ public class TwoController {
         return "important/heart";
     }
 
-    @GetMapping("/program")
+   /* @GetMapping("/program")
     public String program() {
         return "important/program";
-    }
+    }*/
 
     @GetMapping("/flower")
     public String flower() {
