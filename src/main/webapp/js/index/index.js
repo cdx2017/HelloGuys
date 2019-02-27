@@ -4,7 +4,8 @@ nextgo = function () {
         type: "get",
         data: ""
     }).success(function (result) {
-            window.location.href = result.nextgo;
+            //window.location.href = result.nextgo;
+            window.location.href = "/fireworks";
         }
     )
 };
